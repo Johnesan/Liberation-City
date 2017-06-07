@@ -33,11 +33,11 @@ namespace DunamisChurchMobile.ViewModels
         {
             try
             {
-                Device.OpenUri(new Uri("fb://page/139148699458547"));
+                Device.OpenUri(new Uri("fb://page/247939405316259"));
             }
             catch
             {
-                Device.OpenUri(new Uri("https://www.facebook.com/DunamisGospel/"));
+                Device.OpenUri(new Uri("https://www.facebook.com/liberationcity/"));
             }
         }
 
@@ -45,11 +45,11 @@ namespace DunamisChurchMobile.ViewModels
         {
             try
             {
-                Device.OpenUri(new Uri("twitter://user?user_id=206279807"));
+                Device.OpenUri(new Uri("twitter://user?user_id=613891565"));
             }
             catch
             {
-                Device.OpenUri(new Uri("https://twitter.com/DunamisGospel"));
+                Device.OpenUri(new Uri("https://twitter.com/liberationcity"));
             }           
         }
 
@@ -57,17 +57,17 @@ namespace DunamisChurchMobile.ViewModels
         {
             try
             {
-                Device.OpenUri(new Uri("instagram://user?username=drpastorpaulenenche"));
+                Device.OpenUri(new Uri("instagram://user?username=liberationcity"));
             }
             catch
             {
-                Device.OpenUri(new Uri("https://www.instagram.com/drpastorpaulenenche/"));
+                Device.OpenUri(new Uri("https://www.instagram.com/liberationcity/"));
             }          
         }
 
         public void youtubePage()
         {
-            Device.OpenUri(new Uri("https://www.youtube.com/user/dunamistvng"));
+            Device.OpenUri(new Uri("https://www.youtube.com/user/liberationcitytv"));
         }
     }
 }

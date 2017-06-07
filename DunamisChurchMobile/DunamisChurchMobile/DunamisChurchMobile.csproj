@@ -49,9 +49,8 @@
     <Compile Include="RootPageMenuItem.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
     <Compile Include="ViewModels\HomeViewModel.cs" />
-    <Compile Include="ViewModels\MamaViewModel.cs" />
     <Compile Include="ViewModels\MessageLibraryViewModel.cs" />
-    <Compile Include="ViewModels\PapaViewModel.cs" />
+    <Compile Include="ViewModels\AboutPastorViewModel.cs" />
     <Compile Include="ViewModels\SocialMediaViewModel.cs" />
     <Compile Include="ViewModels\YoutubeViewModel.cs" />
     <Compile Include="Views\AboutUs.xaml.cs">
