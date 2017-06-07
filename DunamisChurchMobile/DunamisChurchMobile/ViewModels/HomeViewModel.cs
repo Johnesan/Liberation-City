@@ -16,7 +16,7 @@ namespace DunamisChurchMobile
             EventCommand = new Command(EventPage);
             OnlineGivingCommand = new Command(OnlineGivingPage);
             TestimonyCommand = new Command(TestimonyPage);
-            DunamisTvCommand = new Command(DunamisTvPage);
+            LiberationCityTVCommand = new Command(LiberationCityTVPage);
 
             Navigation = _Navigation;
 
@@ -27,7 +27,7 @@ namespace DunamisChurchMobile
         public ICommand EventCommand { private set; get; }
         public ICommand OnlineGivingCommand { private set; get; }
         public ICommand TestimonyCommand { private set; get; }
-        public ICommand DunamisTvCommand { private set; get; }
+        public ICommand LiberationCityTVCommand { private set; get; }
         public ICommand SeedOfDestinyCommand { get; set; }
 
 
@@ -44,9 +44,9 @@ namespace DunamisChurchMobile
 
         }
 
-        public void DunamisTvPage()
+        public void LiberationCityTVPage()
         {
-            Navigation.PushAsync(new DunamisTV());
+            Navigation.PushAsync(new LiberationCityTV());
 
         }
 

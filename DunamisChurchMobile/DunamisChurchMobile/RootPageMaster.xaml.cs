@@ -37,8 +37,8 @@ namespace DunamisChurchMobile
                 MenuItems = new ObservableCollection<RootPageMenuItem>(new[]
                 {
                     new RootPageMenuItem { Title = "Home", Icon = "homeIcon", TargetType = typeof(Home) },
-                    new RootPageMenuItem { Title = "Dunamis TV", Icon = "dunamisTVIcon", TargetType = typeof(DunamisTV) },
-                    new RootPageMenuItem { Title = "Messages", Icon = "messagesIcon", TargetType = typeof(YoutubeChannel) },
+                    new RootPageMenuItem { Title = "LiberationCity TV", Icon = "dunamisTVIcon", TargetType = typeof(LiberationCityTV) },
+                    new RootPageMenuItem { Title = "Videos", Icon = "messagesIcon", TargetType = typeof(YoutubeChannel) },
                     new RootPageMenuItem { Title = "Give Online", Icon = "offeringIcon", TargetType = typeof(Offering) },
                     new RootPageMenuItem { Title = "Events", Icon = "eventsIcon", TargetType = typeof(Events) },
                     new RootPageMenuItem { Title = "Social Media", Icon = "twitterIcon", TargetType = typeof(SocialMedia) },

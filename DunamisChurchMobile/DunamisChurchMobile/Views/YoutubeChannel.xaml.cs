@@ -17,7 +17,7 @@ namespace DunamisChurchMobile.Views
         public YoutubeChannel()
         {
             InitializeComponent();
-            BindingContext = new YoutubeViewModel("UCK_Jbyeifa1W5A4Z8uB708w");
+            BindingContext = new YoutubeViewModel("UCePZkMO8KURFX34jvJwXhzQ");
         }
 
         private async void OnSingleVideoSelected(object sender, SelectedItemChangedEventArgs e)

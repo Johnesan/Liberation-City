@@ -57,8 +57,8 @@
     <Compile Include="Views\AboutUs.xaml.cs">
       <DependentUpon>AboutUs.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\DunamisTV.xaml.cs">
-      <DependentUpon>DunamisTV.xaml</DependentUpon>
+    <Compile Include="Views\LiberationCityTV.xaml.cs">
+      <DependentUpon>LiberationCityTV.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Events.xaml.cs">
       <DependentUpon>Events.xaml</DependentUpon>
@@ -149,7 +149,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Views\DunamisTV.xaml">
+    <EmbeddedResource Include="Views\LiberationCityTV.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

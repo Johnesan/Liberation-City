@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace DunamisChurchMobile.Views
 {
-    public partial class DunamisTV : ContentPage
+    public partial class LiberationCityTV : ContentPage
     {
-        public DunamisTV()
+        public LiberationCityTV()
         {
             InitializeComponent();
         }
