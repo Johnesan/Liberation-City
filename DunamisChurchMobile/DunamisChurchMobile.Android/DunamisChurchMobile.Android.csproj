@@ -208,9 +208,6 @@
     <AndroidResource Include="Resources\drawable\audioandvideo.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\bg.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\dunamistvv.jpg" />
   </ItemGroup>
   <ItemGroup>
