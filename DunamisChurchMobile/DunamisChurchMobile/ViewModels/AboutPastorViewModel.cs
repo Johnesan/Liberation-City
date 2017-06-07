@@ -10,7 +10,7 @@ using Xamarin.Forms;
 
 namespace DunamisChurchMobile.ViewModels
 {
-    class MamaViewModel : BaseViewModel
+    class AboutPastorViewModel : BaseViewModel
     {
         private INavigation Navigation;
         public ICommand facebookCommand { get; private set; }
@@ -18,7 +18,7 @@ namespace DunamisChurchMobile.ViewModels
         public ICommand instagramCommand { get; set; }
         public ICommand youtubeCommand { get; set; }
 
-        public MamaViewModel(INavigation _Navigation)
+        public AboutPastorViewModel(INavigation _Navigation)
         {
             facebookCommand = new Command(facebookPage);
             twitterCommand = new Command(twitterPage);
@@ -33,11 +33,11 @@ namespace DunamisChurchMobile.ViewModels
         {
             try
             {
-                Device.OpenUri(new Uri("fb://page/222940574415209"));
+                Device.OpenUri(new Uri("fb://page/1048616035218132"));
             }
             catch
             {
-                Device.OpenUri(new Uri("https://www.facebook.com/Drbeckyenenche/"));
+                Device.OpenUri(new Uri("https://www.facebook.com/chrisokaforministries/"));
             }
         }
 
@@ -45,11 +45,11 @@ namespace DunamisChurchMobile.ViewModels
         {
             try
             {
-                Device.OpenUri(new Uri("twitter://user?user_id=585030257"));
+                Device.OpenUri(new Uri("twitter://user?user_id=613891565"));
             }
             catch
             {
-                Device.OpenUri(new Uri("https://twitter.com/DrBeckyEnenche"));
+                Device.OpenUri(new Uri("https://twitter.com/liberationcity"));
             }
         }
 
@@ -57,17 +57,17 @@ namespace DunamisChurchMobile.ViewModels
         {
             try
             {
-                Device.OpenUri(new Uri("instagram://user?username=drbeckyenenche"));
+                Device.OpenUri(new Uri("instagram://user?username=chrisokaforministries"));
             }
             catch
             {
-                Device.OpenUri(new Uri("https://www.instagram.com/drbeckyenenche/"));
+                Device.OpenUri(new Uri("https://www.instagram.com/chrisokaforministries/"));
             }
         }
 
         public void youtubePage()
         {
-            Device.OpenUri(new Uri("https://www.youtube.com/user/DrBeckyEnenche"));
+            Device.OpenUri(new Uri("https://www.youtube.com/user/DrPastorPaulEnenche"));
         }
     }
 }
