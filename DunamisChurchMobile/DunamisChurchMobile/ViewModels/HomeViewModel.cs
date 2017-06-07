@@ -12,19 +12,18 @@ namespace DunamisChurchMobile
         {
 
             PrayerCommand = new Command(PrayerPage);
-            MessageLibraryCommand = new Command(MessageLibraryPage);
+            YoutubeChannelCommand = new Command(YoutubeChannelPage);
             EventCommand = new Command(EventPage);
             OnlineGivingCommand = new Command(OnlineGivingPage);
             TestimonyCommand = new Command(TestimonyPage);
             DunamisTvCommand = new Command(DunamisTvPage);
-            SeedOfDestinyCommand = new Command(SeedOfDestinyPage);
 
             Navigation = _Navigation;
 
         }
 
         public ICommand PrayerCommand { private set; get; }
-        public ICommand MessageLibraryCommand { private set; get; }
+        public ICommand YoutubeChannelCommand { private set; get; }
         public ICommand EventCommand { private set; get; }
         public ICommand OnlineGivingCommand { private set; get; }
         public ICommand TestimonyCommand { private set; get; }
@@ -65,14 +64,11 @@ namespace DunamisChurchMobile
 
         }
 
-        public void MessageLibraryPage()
+        public void YoutubeChannelPage()
         {
-            Navigation.PushAsync(new MessageLibrary());
+            Navigation.PushAsync(new YoutubeChannel());
 
         }
-        public void SeedOfDestinyPage()
-        {
-            Navigation.PushAsync(new SeedOfDestiny());
-        }
+        
     }
 }
