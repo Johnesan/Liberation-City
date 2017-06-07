@@ -19,10 +19,10 @@ namespace DunamisChurchMobile.Views
 
             var ImagesUrl = new List<string>
             {
-                "papa1.jpg",
-                "papa2.jpg",
-                "papa3.jpg",
-                "papa4.jpg"
+                "papa1.png",
+                "papa2.png",
+                "papa3.png"
+                
             };
 
             ImageCarousel.ItemsSource = ImagesUrl;

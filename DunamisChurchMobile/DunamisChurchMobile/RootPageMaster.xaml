@@ -29,7 +29,7 @@
               Style="{DynamicResource SubtitleStyle}"/>
         </Grid>-->
                 <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" HeightRequest="200">
-                <Image Source="masterPageLogo.jpg" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+                <Image Source="master.png" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
                 </StackLayout>
                 <!--<Grid>
                     <Image Source="DunamisLogo.png" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
