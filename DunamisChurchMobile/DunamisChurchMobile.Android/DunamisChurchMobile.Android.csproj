@@ -301,9 +301,6 @@
     <AndroidResource Include="Resources\drawable\masterPageLogo.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\aboutPageLogo.png" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\aboutBackground.png" />
   </ItemGroup>
   <ItemGroup>
