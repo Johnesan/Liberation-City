@@ -12,12 +12,12 @@ using Xamarin.Forms.Xaml;
 namespace DunamisChurchMobile.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MessageLibraryDunamisTV : ContentPage
+    public partial class YoutubeChannel : ContentPage
     {
-        public MessageLibraryDunamisTV()
+        public YoutubeChannel()
         {
             InitializeComponent();
-            BindingContext = new YoutubeViewModel("UC0pFEFO86OwhVUcqAQ4ICjQ");
+            BindingContext = new YoutubeViewModel("UCK_Jbyeifa1W5A4Z8uB708w");
         }
 
         private async void OnSingleVideoSelected(object sender, SelectedItemChangedEventArgs e)
@@ -30,13 +30,11 @@ namespace DunamisChurchMobile.Views
             var youtubeItem = e.SelectedItem as YoutubeItem;
             var videoId = youtubeItem.VideoId;
 
-            await Navigation.PushAsync(new MessageLibraryDunamisTVVideo(videoId)
+            await Navigation.PushAsync(new SingleYoutubeVideo(videoId)
             {
                 BindingContext = youtubeItem
             });
 
         }
-
     }
 }
-

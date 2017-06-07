@@ -72,32 +72,17 @@
     <Compile Include="Views\HomeChurchDetails.xaml.cs">
       <DependentUpon>HomeChurchDetails.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Mama.xaml.cs">
-      <DependentUpon>Mama.xaml</DependentUpon>
+    <Compile Include="Views\YoutubeChannel.xaml.cs">
+      <DependentUpon>YoutubeChannel.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\MessageLibrary.xaml.cs">
-      <DependentUpon>MessageLibrary.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\MessageLibraryDrPaul.xaml.cs">
-      <DependentUpon>MessageLibraryDrPaul.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\MessageLibraryDrPaulVideo.xaml.cs">
-      <DependentUpon>MessageLibraryDrPaulVideo.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\MessageLibraryDunamisTV.xaml.cs">
-      <DependentUpon>MessageLibraryDunamisTV.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\MessageLibraryDunamisTVVideo.xaml.cs">
-      <DependentUpon>MessageLibraryDunamisTVVideo.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\NewsAndAnnouncements.xaml.cs">
-      <DependentUpon>NewsAndAnnouncements.xaml</DependentUpon>
+    <Compile Include="Views\SingleYoutubeVideo.xaml.cs">
+      <DependentUpon>SingleYoutubeVideo.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Offering.xaml.cs">
       <DependentUpon>Offering.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Papa.xaml.cs">
-      <DependentUpon>Papa.xaml</DependentUpon>
+    <Compile Include="Views\AboutPastor.xaml.cs">
+      <DependentUpon>AboutPastor.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Prayers.xaml.cs">
       <DependentUpon>Prayers.xaml</DependentUpon>
@@ -194,25 +179,13 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Views\Mama.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Views\NewsAndAnnouncements.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Views\Offering.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Views\Papa.xaml">
+    <EmbeddedResource Include="Views\AboutPastor.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -257,31 +230,13 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Views\MessageLibrary.xaml">
+    <EmbeddedResource Include="Views\YoutubeChannel.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Views\MessageLibraryDunamisTV.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Views\MessageLibraryDrPaul.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Views\MessageLibraryDrPaulVideo.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Views\MessageLibraryDunamisTVVideo.xaml">
+    <EmbeddedResource Include="Views\SingleYoutubeVideo.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

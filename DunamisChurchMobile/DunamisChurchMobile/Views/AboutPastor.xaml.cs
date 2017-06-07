@@ -11,9 +11,9 @@ using Xamarin.Forms.Xaml;
 namespace DunamisChurchMobile.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Papa : ContentPage
+    public partial class AboutPastor : ContentPage
     {
-        public Papa()
+        public AboutPastor()
         {
             InitializeComponent();
 

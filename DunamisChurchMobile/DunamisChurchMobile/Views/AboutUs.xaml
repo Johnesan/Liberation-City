@@ -21,8 +21,7 @@
         </StackLayout>
 
         <StackLayout Grid.Row="2" Spacing="0" VerticalOptions="End">
-                <Button Text="About Dr. Paul Enenche" HorizontalOptions="FillAndExpand" Clicked="PapaButtonClicked" BackgroundColor="#FFF176" Margin="8,0,8,0"/>
-                <Button Text="About Dr. Becky Enenche" HorizontalOptions="FillAndExpand"  Clicked="MamaButtonClicked" BackgroundColor="#FFEE58" Margin="8,0,8,0"/>
+                <Button Text="About Chris Okafor" HorizontalOptions="FillAndExpand"  Clicked="PastorButtonClicked" BackgroundColor="#FFEE58" Margin="8,0,8,0"/>
         </StackLayout>
     </Grid>
     </ScrollView>

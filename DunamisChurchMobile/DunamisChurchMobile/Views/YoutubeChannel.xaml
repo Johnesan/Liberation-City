@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:ViewModels="clr-namespace:XamarinForms.ViewModels"
-             x:Class="DunamisChurchMobile.Views.MessageLibraryDunamisTV"
-             Title="Dunamis TV">
+             x:Class="DunamisChurchMobile.Views.YoutubeChannel" 
+             Title="Messages">
     <StackLayout Padding = "5,10"
                BackgroundColor="White">
         <ActivityIndicator IsEnabled="{Binding IsBusy}"
