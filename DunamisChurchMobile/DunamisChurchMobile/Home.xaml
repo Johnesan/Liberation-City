@@ -3,87 +3,65 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:DunamisChurchMobile"
              x:Class="DunamisChurchMobile.Home"
-             BackgroundImage="bg.png">
+             BackgroundImage="home.jpg">
     <ContentPage.Padding>
     </ContentPage.Padding>
-    <Grid Padding="10">
+    <ScrollView>
+    <Grid Padding="10,80,10,40">
         <Grid.RowDefinitions>
             <RowDefinition Height="110" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="20" />
+            <RowDefinition Height="110" />
+            <RowDefinition Height="130" />
+            <RowDefinition Height="150" />
+            <RowDefinition Height="130" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
             <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
-            <ColumnDefinition />
+           
         </Grid.ColumnDefinitions>
-        <StackLayout Orientation="Horizontal" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4">
+        <StackLayout Orientation="Horizontal" Grid.Row="2" Grid.Column="0" >
             <Image Opacity="0.9" Aspect="AspectFill" VerticalOptions="FillAndExpand" 
-			HorizontalOptions="FillAndExpand" Source="DunamisTV.jpg">
+			HorizontalOptions="FillAndExpand" Source="HomeC.jpg">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer Command="{Binding DunamisTvCommand}" />
                 </Image.GestureRecognizers>
             </Image>
         </StackLayout>
-        <StackLayout Orientation="Horizontal" Grid.Row="1" Grid.Column="4" Grid.ColumnSpan="3">
+        <StackLayout Orientation="Horizontal" Grid.Row="2" Grid.Column="1" >
             <Image Opacity="1" Aspect="AspectFill" VerticalOptions="FillAndExpand" 
-			HorizontalOptions="FillAndExpand" Source="homechurch.jpg">
+			HorizontalOptions="FillAndExpand" Source="events.png">
                 <Image.GestureRecognizers>
-                    <TapGestureRecognizer Command="{Binding TestimonyCommand}" />
+                    <TapGestureRecognizer Command="{Binding EventsCommand}" />
                 </Image.GestureRecognizers>
             </Image>
         </StackLayout>
-        <StackLayout Orientation="Horizontal" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3">
+        <StackLayout Orientation="Horizontal" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2">
             <Image Opacity="1" Aspect="AspectFill" VerticalOptions="FillAndExpand" 
-				HorizontalOptions="FillAndExpand" Source="events.jpg">
+				HorizontalOptions="FillAndExpand" Source="Video.png">
                 <Image.GestureRecognizers>
-                    <TapGestureRecognizer Command="{Binding EventCommand}" />
+                    <TapGestureRecognizer Command="{Binding YoutubeChannelCommand }" />
                 </Image.GestureRecognizers>
             </Image>
         </StackLayout>
-        <StackLayout Orientation="Horizontal" Grid.Row="2" Grid.Column="3" Grid.ColumnSpan="4">
+        <StackLayout Orientation="Horizontal" Grid.Row="4" Grid.Column="0" >
             <Image Opacity="1" Aspect="AspectFill" VerticalOptions="FillAndExpand" 
-			HorizontalOptions="FillAndExpand" Source="audio.png">
+			HorizontalOptions="FillAndExpand" Source="give.png">
                 <Image.GestureRecognizers>
-                    <TapGestureRecognizer Command="{Binding YoutubeChannelCommand}" />
+                    <TapGestureRecognizer Command="{Binding OnlineGivingCommand}" />
                 </Image.GestureRecognizers>
             </Image>
 
         </StackLayout>
-        <StackLayout Orientation="Horizontal" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3">
+        <StackLayout Orientation="Horizontal" Grid.Row="4" Grid.Column="1" >
             <Image Aspect="AspectFill" VerticalOptions="FillAndExpand" 
-			HorizontalOptions="FillAndExpand" Source="onlinegiving.png">
+			HorizontalOptions="FillAndExpand" Source="part.png">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer Command="{Binding OnlineGivingCommand}" />
                 </Image.GestureRecognizers>
             </Image>
         </StackLayout>
-        <StackLayout Grid.Row="3" Grid.Column="3" Grid.ColumnSpan="4" Grid.RowSpan="2">
-            <ScrollView HorizontalOptions="Start">
-                <StackLayout>
-                    <Label FontAttributes="Bold" FontSize="18" Text="Seed Of Destiny" TextColor="White" VerticalOptions="Center" HorizontalOptions="Center" />
-                    <Label FontAttributes="Italic" FontSize="12" Text="Today: April 1st, 2017" TextColor="White" VerticalOptions="Start" HorizontalOptions="End" />
-                    <Label FontSize="12" TextColor="White" Text="Ok, then try to add another transparent view to the beginning of the stack and set it's option to start and expand, then remove horizontal option for image. This should do the trick. You may also try using Grid with */Auto sized columns for stuff like this. Everybody moves from simple layouts to grid eventually, especially now, after they added margin property." />
-                    <Button BackgroundColor="Transparent" TextColor="White" Text="Read More.." >
-                    </Button>
-                </StackLayout>
-            </ScrollView>
-        </StackLayout>
-        <StackLayout Orientation="Horizontal" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3">
-            <Image Aspect="AspectFill" VerticalOptions="FillAndExpand" 
-			HorizontalOptions="FillAndExpand" Source="prayer.png">
-                <Image.GestureRecognizers>
-                    <TapGestureRecognizer Command="{Binding PrayerCommand}" />
-                </Image.GestureRecognizers>
-            </Image>
-
-        </StackLayout>
+       
     </Grid>
+    </ScrollView>
 </ContentPage>
