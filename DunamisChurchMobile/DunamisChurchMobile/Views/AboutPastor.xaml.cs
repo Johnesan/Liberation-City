@@ -26,7 +26,7 @@ namespace DunamisChurchMobile.Views
             };
 
             ImageCarousel.ItemsSource = ImagesUrl;
-            BindingContext = new AboutPastorViewModel(this.Navigation);
+            //BindingContext = new PapaViewModel(this.Navigation);
         }
     }
 }
