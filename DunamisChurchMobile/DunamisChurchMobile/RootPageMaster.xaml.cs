@@ -42,7 +42,7 @@ namespace DunamisChurchMobile
                     new RootPageMenuItem { Title = "Give Online", Icon = "offeringIcon", TargetType = typeof(Offering) },
                     new RootPageMenuItem { Title = "Events", Icon = "eventsIcon", TargetType = typeof(Events) },
                     new RootPageMenuItem { Title = "Social Media", Icon = "twitterIcon", TargetType = typeof(SocialMedia) },
-                    new RootPageMenuItem { Title = "About Us", Icon = "aboutIcon", TargetType = typeof(AboutUs) }
+                    new RootPageMenuItem { Title = "About The Pastor", Icon = "aboutIcon", TargetType = typeof(AboutPastor) }
                 });
             }
             public event PropertyChangedEventHandler PropertyChanged;
