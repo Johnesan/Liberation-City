@@ -31,11 +31,10 @@
         </StackLayout>
     </ScrollView>-->
     <StackLayout>
-        <ProgressBar x:Name="progressBar" Progress="0.2" HorizontalOptions="FillAndExpand" IsVisible="True"/>
+        <!--<ProgressBar x:Name="progressBar" Progress="0.2" HorizontalOptions="FillAndExpand" IsVisible="True"/>-->
         <WebView x:Name="youtubeVideo"
                  HorizontalOptions="FillAndExpand"
                  VerticalOptions="FillAndExpand" 
-                 Navigating="webView_Navigating"
-                 Navigated="webView_Navigated"/>
+            />
     </StackLayout>
 </ContentPage>

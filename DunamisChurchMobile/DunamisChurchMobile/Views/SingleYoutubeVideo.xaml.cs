@@ -28,21 +28,21 @@ namespace DunamisChurchMobile.Views
             youtubeVideo.Source = htmlSource;
         }
               
-        protected async override void OnAppearing()
-        {
-            base.OnAppearing();
-            await progressBar.ProgressTo(0.9, 900, Easing.SpringIn);
+        //protected async override void OnAppearing()
+        //{
+        //    base.OnAppearing();
+        //    await progressBar.ProgressTo(0.9, 900, Easing.SpringIn);
 
-        }
-        private void webView_Navigating(object sender, WebNavigatingEventArgs e)
-        {
-            progressBar.IsVisible = true;
-        }
+        //}
+        //private void webView_Navigating(object sender, WebNavigatingEventArgs e)
+        //{
+        //    progressBar.IsVisible = true;
+        //}
 
-        private void webView_Navigated(object sender, WebNavigatedEventArgs e)
-        {
-            progressBar.IsVisible = false;
+        //private void webView_Navigated(object sender, WebNavigatedEventArgs e)
+        //{
+        //    progressBar.IsVisible = false;
 
-        }
+        //}
     }
 }
