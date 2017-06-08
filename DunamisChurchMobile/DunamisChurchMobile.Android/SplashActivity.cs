@@ -13,7 +13,7 @@ using Android.Widget;
 namespace DunamisChurchMobile.Droid
 {
     [Activity(Theme = "@style/Theme.Splash",
-        Label = "LiberatioCIty Mobile",
+        Label = "Liberation CIty",
         MainLauncher = true,
         NoHistory = true)]
     public class SplashActivity : Activity

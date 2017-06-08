@@ -3,15 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:DunamisChurchMobile"
              x:Class="DunamisChurchMobile.Home"
-             BackgroundImage="home.jpg">
+             BackgroundImage="home.jpg"
+             Title="Liberation City">
     <ContentPage.Padding>
     </ContentPage.Padding>
     <ScrollView>
     <Grid Padding="10,80,10,40">
         <Grid.RowDefinitions>
-            <RowDefinition Height="110" />
-            <RowDefinition Height="110" />
-            <RowDefinition Height="130" />
+                <RowDefinition Height="110" />
+                <RowDefinition Height="130" />
             <RowDefinition Height="150" />
             <RowDefinition Height="130" />
         </Grid.RowDefinitions>
@@ -20,7 +20,7 @@
             <ColumnDefinition />
            
         </Grid.ColumnDefinitions>
-        <StackLayout Orientation="Horizontal" Grid.Row="2" Grid.Column="0" >
+        <StackLayout Orientation="Horizontal" Grid.Row="1" Grid.Column="0" >
             <Image Opacity="0.9" Aspect="AspectFill" VerticalOptions="FillAndExpand" 
 			HorizontalOptions="FillAndExpand" Source="HomeC.jpg">
                 <Image.GestureRecognizers>
@@ -28,7 +28,7 @@
                 </Image.GestureRecognizers>
             </Image>
         </StackLayout>
-        <StackLayout Orientation="Horizontal" Grid.Row="2" Grid.Column="1" >
+        <StackLayout Orientation="Horizontal" Grid.Row="1" Grid.Column="1" >
             <Image Opacity="1" Aspect="AspectFill" VerticalOptions="FillAndExpand" 
 			HorizontalOptions="FillAndExpand" Source="events.png">
                 <Image.GestureRecognizers>
@@ -36,7 +36,7 @@
                 </Image.GestureRecognizers>
             </Image>
         </StackLayout>
-        <StackLayout Orientation="Horizontal" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2">
+        <StackLayout Orientation="Horizontal" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2">
             <Image Opacity="1" Aspect="AspectFill" VerticalOptions="FillAndExpand" 
 				HorizontalOptions="FillAndExpand" Source="Video.png">
                 <Image.GestureRecognizers>
@@ -44,7 +44,7 @@
                 </Image.GestureRecognizers>
             </Image>
         </StackLayout>
-        <StackLayout Orientation="Horizontal" Grid.Row="4" Grid.Column="0" >
+        <StackLayout Orientation="Horizontal" Grid.Row="3" Grid.Column="0" >
             <Image Opacity="1" Aspect="AspectFill" VerticalOptions="FillAndExpand" 
 			HorizontalOptions="FillAndExpand" Source="give.png">
                 <Image.GestureRecognizers>
@@ -53,11 +53,11 @@
             </Image>
 
         </StackLayout>
-        <StackLayout Orientation="Horizontal" Grid.Row="4" Grid.Column="1" >
+        <StackLayout Orientation="Horizontal" Grid.Row="3" Grid.Column="1" >
             <Image Aspect="AspectFill" VerticalOptions="FillAndExpand" 
 			HorizontalOptions="FillAndExpand" Source="part.png">
                 <Image.GestureRecognizers>
-                    <TapGestureRecognizer Command="{Binding OnlineGivingCommand}" />
+                    <TapGestureRecognizer Command="{Binding PartnerWithUsCommand}" />
                 </Image.GestureRecognizers>
             </Image>
         </StackLayout>

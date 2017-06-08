@@ -27,7 +27,6 @@ namespace DunamisChurchMobile
         }
 
 
-
         class RootPageMasterViewModel : INotifyPropertyChanged
         {
             public ObservableCollection<RootPageMenuItem> MenuItems { get; }

@@ -8,7 +8,7 @@ namespace DunamisChurchMobile
         {
             InitializeComponent();
             //Icon = "menu.png";
-            Title = "Dunamis Gospel Center";
+            Title = "Liberation City";
             BindingContext = new HomeViewModel(this.Navigation);
             //NavigationPage.SetHasNavigationBar(this, false);
         }
