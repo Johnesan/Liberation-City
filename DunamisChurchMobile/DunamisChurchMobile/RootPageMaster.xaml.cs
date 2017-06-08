@@ -40,7 +40,7 @@ namespace DunamisChurchMobile
                     new RootPageMenuItem { Title = "LiberationCity TV", Icon = "dunamisTVIcon", TargetType = typeof(LiberationCityTV) },
                     new RootPageMenuItem { Title = "Videos", Icon = "messagesIcon", TargetType = typeof(YoutubeChannel) },
                     new RootPageMenuItem { Title = "Give Online", Icon = "offeringIcon", TargetType = typeof(Offering) },
-                    new RootPageMenuItem { Title = "Events", Icon = "eventsIcon", TargetType = typeof(Events) },
+                    new RootPageMenuItem { Title = "Partner With Us", Icon = "eventsIcon", TargetType = typeof(PartnerWithUs) },
                     new RootPageMenuItem { Title = "Social Media", Icon = "twitterIcon", TargetType = typeof(SocialMedia) },
                     new RootPageMenuItem { Title = "About The Pastor", Icon = "aboutIcon", TargetType = typeof(AboutPastor) }
                 });

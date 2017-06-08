@@ -11,24 +11,19 @@ namespace DunamisChurchMobile
         public HomeViewModel(INavigation _Navigation)
         {
 
-            PrayerCommand = new Command(PrayerPage);
             YoutubeChannelCommand = new Command(YoutubeChannelPage);
-            EventCommand = new Command(EventPage);
+            PartnerWithUsCommand = new Command(PartnerWithUsPage);
             OnlineGivingCommand = new Command(OnlineGivingPage);
-            TestimonyCommand = new Command(TestimonyPage);
             LiberationCityTVCommand = new Command(LiberationCityTVPage);
 
             Navigation = _Navigation;
 
         }
 
-        public ICommand PrayerCommand { private set; get; }
         public ICommand YoutubeChannelCommand { private set; get; }
-        public ICommand EventCommand { private set; get; }
+        public ICommand PartnerWithUsCommand { private set; get; }
         public ICommand OnlineGivingCommand { private set; get; }
-        public ICommand TestimonyCommand { private set; get; }
         public ICommand LiberationCityTVCommand { private set; get; }
-        public ICommand SeedOfDestinyCommand { get; set; }
 
 
 
@@ -38,11 +33,7 @@ namespace DunamisChurchMobile
 
         }
 
-        public void PrayerPage()
-        {
-            Navigation.PushAsync(new Prayers());
 
-        }
 
         public void LiberationCityTVPage()
         {
@@ -50,17 +41,13 @@ namespace DunamisChurchMobile
 
         }
 
-        public void TestimonyPage()
+
+
+
+
+        public void PartnerWithUsPage()
         {
-            Navigation.PushAsync(new Testimonies());
-
-        }
-
-
-
-        public void EventPage()
-        {
-            Navigation.PushAsync(new Events());
+            Navigation.PushAsync(new PartnerWithUs());
 
         }
 
@@ -69,6 +56,6 @@ namespace DunamisChurchMobile
             Navigation.PushAsync(new YoutubeChannel());
 
         }
-        
+
     }
 }

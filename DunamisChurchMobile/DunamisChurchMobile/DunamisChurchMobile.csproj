@@ -49,15 +49,14 @@
     <Compile Include="RootPageMenuItem.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
     <Compile Include="ViewModels\HomeViewModel.cs" />
-    <Compile Include="ViewModels\MessageLibraryViewModel.cs" />
     <Compile Include="ViewModels\AboutPastorViewModel.cs" />
     <Compile Include="ViewModels\SocialMediaViewModel.cs" />
     <Compile Include="ViewModels\YoutubeViewModel.cs" />
     <Compile Include="Views\LiberationCityTV.xaml.cs">
       <DependentUpon>LiberationCityTV.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Events.xaml.cs">
-      <DependentUpon>Events.xaml</DependentUpon>
+    <Compile Include="Views\PartnerWithUs.xaml.cs">
+      <DependentUpon>PartnerWithUs.xaml</DependentUpon>
     </Compile>
     <Compile Include="Home.xaml.cs">
       <DependentUpon>Home.xaml</DependentUpon>
@@ -80,19 +79,12 @@
     <Compile Include="Views\AboutPastor.xaml.cs">
       <DependentUpon>AboutPastor.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Prayers.xaml.cs">
-      <DependentUpon>Prayers.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Views\SocialMedia.xaml.cs">
       <DependentUpon>SocialMedia.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\Testimonies.xaml.cs">
-      <DependentUpon>Testimonies.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Videos.xaml.cs">
       <DependentUpon>Videos.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\YoutubeViewPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml">
@@ -151,7 +143,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Views\Events.xaml">
+    <EmbeddedResource Include="Views\PartnerWithUs.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -176,18 +168,6 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\AboutPastor.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Views\Prayers.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Views\Testimonies.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
