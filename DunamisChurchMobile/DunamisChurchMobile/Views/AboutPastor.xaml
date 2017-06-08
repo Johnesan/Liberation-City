@@ -28,11 +28,11 @@
 
             <StackLayout Grid.Row="1" VerticalOptions="StartAndExpand" Margin="10,2,10,0"  >
                 <ScrollView>
-                    <Label Font="17" TextColor="Black" FontAttributes="Italic" FontFamily="Arial" Text="Dr Pastor Paul Enenche is a trained Medical Doctor, called of God into full time ministry, with a heavy Apostolic and Prophetic mantle for the restoration of human lives and dignities.He is the Senior Pastor of Dunamis International Gospel Centre, with the headquarters situated beside the Old Federal Secretariat, Area 1, Abuja— the Federal Capital Territory of Nigeria. He is married to Dr Becky, a beautiful, intelligent, submissive, supportive and hardworking Medical Doctor, also called of God into full time ministry. And together, they have four blessed children."/>
+                        <Label Font="17" TextColor="Black" FontAttributes="Italic" FontFamily="Arial" Text="Chris Okafor popularly referred to as the Oracle, is a Christain minister, televangelist and healer with particular emphasis on dealing with foundations and altars. He is leader and founder of Mountain Of Liberation and Miracle Ministry, also known as Liberation City When it comes to impacting human lives, besides his primary spiritual assignment, Okafor is a renowned giver, providing succor and empowering the underprivileged with skills acquisition, scholarship via The Chris Okafor Humanity Foundation. He has received numerous recognitions, notably The Most accurate Seer of the Year . Okafor is widely travelled and known across Africa and beyond by the vehicle of his mandate, Chris Okafor World Outreach Ministry (COWOM) which has taken the message of liberation to countless homes in crusades and via the Liberation TV."/>
                 </ScrollView>
             </StackLayout>
 
-                <StackLayout Grid.Row="2" Padding="6"  Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="50" VerticalOptions="EndAndExpand" BackgroundColor="#5C6BC0">
+                <StackLayout Grid.Row="2" Padding="6"  Orientation="Horizontal" HorizontalOptions="FillAndExpand" HeightRequest="50" VerticalOptions="EndAndExpand" BackgroundColor="Transparent">
                 <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="14">
                     <Image Aspect="AspectFill" Source="facebookCircle.png" VerticalOptions="Center" HorizontalOptions="Center" >
                         <Image.GestureRecognizers>
